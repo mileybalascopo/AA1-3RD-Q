@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>A-E-I LoVE U</title>
+</head>
+<body>
+  <h2>A-E-I LoVE U</h2>
+  <script>
+  var message = prompt("Enter a message: ");
+
+  var count = 0;
+  for(var i = 0; i < message.length; i++){
+    var ch = message.charAt(i);
+    if ((ch == 'a' || ch == 'A') || (ch == 'e' || ch == 'E') || (ch == 'i' || ch == 'I') || (ch == 'o' || ch == 'O') || (ch == 'u' || ch == 'U')) {
+      count++;
+    }
+  }
+  
+  alert("The total number of vowels/chocolates are: " + count);
+  </script>
+</body>
+</html>
